@@ -1,0 +1,86 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu,
+.Quiz,
+.endScreen{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.Menu button,
+.endScreen button{
+  width: 200px;
+  height: 60px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+.Quiz 
+.btn{
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Menu,
+.Quiz,
+.endScreen {
+  color: white;
+}
+.options{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.Quiz h1{
+  text-align: center;
+}
+
+.user{
+  width: 49%;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+}
+.fullname{
+  font-size: 30px;
+  color: black;
+}
+.username{
+  color: rgb(47, 4, 88);
+}
+.next,
+.finish{
+  background-color: lightgreen;
+  width: 200px;
+  height: 60px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
